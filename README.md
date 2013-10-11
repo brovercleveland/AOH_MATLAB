@@ -5,5 +5,5 @@ Software built to run AOH test box, I2C lines, function generators, oscilloscope
 
 Alan
 ----
-*Don't screw anything up.
-*Try not to embarrass yourself.
+  *Don't screw anything up.
+  *Try not to embarrass yourself.
