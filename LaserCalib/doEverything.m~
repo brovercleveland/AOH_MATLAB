@@ -1,0 +1,13 @@
+function allClear = doEverything(freq,scope,i2c,id,pos)
+    calllib('aardvark','c_aa_i2c_write',i2c,hex2dec('60'), 0, 1, 20);
+    calllib('aardvark','c_aa_i2c_write',i2c,hex2dec('61'), 0, 1, 20);
+    calllib('aardvark','c_aa_i2c_write',i2c,hex2dec('62'), 0, 1, 20);
+    calllib('aardvark','c_aa_i2c_write',i2c,hex2dec('63'), 0, 1, 00);
+    rightGArray = [hex2dec('00'),hex2dec('01'),hex2dec('02'),hex2dec('03')]
+    middleGArray = [hex2dec('00'),hex2dec('04'),hex2dec('08'),hex2dec('0C')]
+    leftGArray = [hex2dec('00'),hex2dec('10'),hex2dec('20'),hex2dec('30')]
+    if strcmp(pos,'right') == 1
+        gainArray
+    for i = 1:4
+      aveAmp  = ampSweep(freq,scope,150,id,pos,)
+    
